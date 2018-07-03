@@ -14,13 +14,13 @@ namespace Tools;
 class Date
 {
     /**
-     * ‘ÓÏ‡ÚËÛÂÚ ‰‡ÚÛ
+     * –§–æ—Ä–º–∞—Ç–∏—Ä—É–µ—Ç –¥–∞—Ç—É
      *
-     * @param $date string ƒ‡Ú‡ (Ì‡ËÏÂ, Ì‡˜‡ÎÓ ‡ÍÚË‚ÌÓÒÚË ˝ÎÂÏÂÌÚ‡)
+     * @param $date string –î–∞—Ç–∞ (–Ω–∞—Ä–∏–º–µ—Ä, –Ω–∞—á–∞–ª–æ –∞–∫—Ç–∏–≤–Ω–æ—Å—Ç–∏ —ç–ª–µ–º–µ–Ω—Ç–∞)
      *
-     * @param $format string ‘ÓÏ‡Ú ‰‡Ú˚ (‚ ‡ÏÍ‡ı Bitrix API)
+     * @param $format string –§–æ—Ä–º–∞—Ç –¥–∞—Ç—ã (–≤ —Ä–∞–º–∫–∞—Ö Bitrix API)
      *
-     * @return string œËÏÂ 05.11.2015 15:37:00 => 5 ÕÓˇ·ˇ 2015
+     * @return string –ü—Ä–∏–º–µ—Ä 05.11.2015 15:37:00 => 5 –ù–æ—è–±—Ä—è 2015
      */
     public static function formatDate ($date, $format = "j F Y") {
         $utf = defined("BX_UTF");
