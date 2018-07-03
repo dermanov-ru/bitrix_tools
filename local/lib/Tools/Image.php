@@ -31,6 +31,8 @@ class Image
      *
      *
      * @return string Путь к измененному файлу
+     *
+     * @see https://dermanov.ru/exp/bitrix-resize-image-and-watermark/ - Примеры работы функции
      */
     public static function getResizedImgOrPlaceholder( $imgId, $width, $height = 0, $proportional = false){
         if (!$width)
