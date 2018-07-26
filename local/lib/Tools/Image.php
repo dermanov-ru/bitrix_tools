@@ -96,7 +96,7 @@ class Image
          * </watermark>
          * */
         
-        $resizedImg = \CFile::ResizeImageGet($imgId, array("width" => $width, "height" => $height), $resizeType, false, false, false, 100);
+        $resizedImg = \CFile::ResizeImageGet($imgId, array("width" => $width, "height" => $height), $resizeType, false, $arFilters, false, 100);
         
         /* если файл по каким-то причинам не создался */
         if (!file_exists($_SERVER["DOCUMENT_ROOT"] . $resizedImg['src'])) {
